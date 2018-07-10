@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo 'Building...'
-ng build --prod --base-href "/collincchoy.github.io/"
+ng build --prod --base-href "/"
 
 echo 'Deploying...'
 ngh --dir dist/collin-app --branch master
